@@ -1,15 +1,15 @@
 """
-Created by Bennhyon (often called Cuek)
+Created by Ben (often called Quack)
 
 This script takes all .mp4 files inside a folder and create .png thumbnails
 with the same name using ffmpeg.exe.
 
 This script has to be executed with at least 1 argument
-in Windows CMD (you need to move to the directory where you have the mp4 files first):
+(you need to cd to the directory where you have the mp4 files first):
 
 python YATC.py *path_to_ffmpeg* [thumbnail_width] [thumbnail_height]
 
-ex: python YATC.py D:/ffmpeg/bin/ffmpeg.exe 450 450 (works with antislashes)
+ex: python YATC.py D:/ffmpeg/bin/ffmpeg.exe 450 450 (works with reverse slashes)
 """
 
 
